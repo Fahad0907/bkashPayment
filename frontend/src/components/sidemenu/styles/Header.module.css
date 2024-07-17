@@ -1,0 +1,25 @@
+.main_head {
+  background-color: #fafcff;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ham_icon {
+  display: none;
+}
+@media screen and (max-width: 786px) {
+  /* .csc {
+    display: none;
+  } */
+  .ham_icon {
+    display: block;
+    padding-left: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,91 @@
+.side_bar_top {
+  height: 70px;
+}
+.side_menu {
+  height: 100vh;
+  background-color: #fffafb;
+}
+.csc_logo {
+  width: 80px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+.side_bar_top {
+  display: flex;
+  justify-content: space-between;
+}
+.cross {
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nav_link {
+  display: flex;
+  color: #002f6c;
+  gap: 10px;
+  cursor: pointer;
+  height: 50px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.menu_name > p {
+  width: 119px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding-top: 20px;
+}
+.active {
+  color: #ffffff;
+  background-color: #002f6c;
+}
+.active:hover {
+  color: pink;
+}
+
+.s_menu {
+  display: flex;
+  color: #002f6c;
+  gap: 10px;
+  cursor: pointer;
+  height: 50px;
+  padding-left: 10px;
+  align-items: center;
+}
+.s_menu_item {
+  display: flex;
+  gap: 10px;
+}
+.menu_con {
+  display: flex;
+  flex-direction: column;
+}
+.menu_con .nav_link {
+  padding-left: 20px;
+}
+.main_hide {
+  visibility: hidden;
+}
+.arrow {
+  margin-right: 10px;
+}
+.working_part {
+  margin-left: 260px;
+  margin-top: 70px;
+}
+.hh {
+  cursor: pointer;
+}
+.working_part_width {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+@media screen and (max-width: 786px) {
+  .working_part {
+    margin-left: 0px;
+  }
+}
